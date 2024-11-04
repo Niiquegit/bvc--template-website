@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.nav .top {
+    height: 60px;
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .top .menu-btn {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #0e0c0c;
+    cursor: pointer;
+
+}
+
+.nav ul li a:hover {
+    background: rgb(255, 255, 255, .2);
+    display: flex;
+}
+
+.nav .list  li a {
+    display: flex;
+    width: 100%;
+    padding: 6px 15px;
+    color: #141313;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .4s;
+}
+
+.nav .list {
+    display: none;
+    transition: all .4s;
+
+}
+
+.pic {
+    height: 380px;
+    width: 380px;
+    border-radius: 20px;
+}
+
+.top img {
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+}
+
+
+
+
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#formResponse {
+    margin-top: 15px;
+    color: green;
+}
+
+#about {
+    padding: 20px;
+    margin: 10px;
+}
+
+.team-photos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-photo {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.team-photo img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#events {
+    padding: 20px;
+    margin: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    
+   
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+
+#teams {
+    padding: 20px;
+    margin: 10px;
+}
+
+.team {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.team h3 {
+    margin-top: 0;
+}
+
+h4 {
+    margin: 10px 0 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.contact-info, .social-media {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.social-media a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+
+
